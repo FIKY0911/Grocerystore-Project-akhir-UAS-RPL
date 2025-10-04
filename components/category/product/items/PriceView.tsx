@@ -1,6 +1,9 @@
+"use client";
+import React from "react";
+
 import { twMerge } from "tailwind-merge";
 import { cn } from "@/lib/utils";
-import PriceFormatter from "./PriceFormatter";
+import PriceFormatter from "../../../subTotal/PriceFormatter";
 
 interface Props {
   price: number | undefined;

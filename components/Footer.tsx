@@ -1,8 +1,8 @@
 import React from 'react'
-import Container from './Container';
-import FooterTop from './FooterTop';
-import Logo from './Logo';
-import SocialMedia from './SocialMedia';
+import Container from "./footer/Container";
+import FooterTop from "./footer/FooterTop";
+import Logo from "./header/Logo";
+import SocialMedia from "./socialMedia/SocialMedia";
 import { SubText, SubTitle } from './text'
 import { categoriesData, quickLinksData } from '@/constants/data';
 import Link from 'next/link';
@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
                 <div className="py-6 border-t text-center text-sm text-gray-600">
                     <div>
-                        © {new Date().getFullYear()} <Logo className="text-sm" />. All
+                        © {new Date().getFullYear()} <Logo className="text-sm mx-3" />. All
                         rights reserved.
                     </div>
                 </div>

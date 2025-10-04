@@ -24,15 +24,15 @@ export const quickLinksData = [
     {title: "Help", href: "/help"},
 ];
 export const categoriesData = [
-    {title: "Leaves", href: "/leaves"},
-    {title: "Roots and Tubers", href: "/roots-and-tubers"},
-    {title: "Stems or Buds", href: "/stems-or-buds"},
-    {title: "Flowers", href: "/flowers"},
-    {title: "Kitchen Spices", href: "/kitchen-spices"},
+    {title: "Daun-daunan", href: "/daun-daunan"},
+    {title: "Akar dan Umbi", href: "/akar-dan-umbi"},
+    {title: "Batang atau Kuncup", href: "/batang-atau-kuncup"},
+    {title: "Bunga", href: "/bunga"},
+    {title: "Rempah Dapur", href: "/rempah-dapur"},
 ];
 export const productType = [
-    {title: "Vegetable", href: "/vegetable"},
-    {title: "Food Seasonings", href: "/food-seasonings"},
-    {title: "Meats", href: "/meats"},
-    {title: "Others", href: "/others"},
+    {title: "Sayuran", href: "/sayuran"},
+    {title: "Bumbu Dapur", href: "/bumbu-dapur"},
+    {title: "Daging", href: "/daging"},
+    {title: "Lainnya", href: "/lainnya"},
 ]

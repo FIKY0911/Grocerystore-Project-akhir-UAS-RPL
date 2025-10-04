@@ -77,10 +77,10 @@ export const productType = defineType({
       type: "string",
       options: {
         list: [
-          { title: "Vegetables", value: "vegetables" },
-          { title: "Kitchen spices", value: "kitchen_spices" },
-          { title: "Meats", value: "meats" },
-          { title: "Others", value: "others" },
+          { title: "Sayuran", value: "sayuran" },
+          { title: "Bumbu Dapur", value: "bumbu-dapur" },
+          { title: "Daging", value: "daging" },
+          { title: "Lainnya", value: "lainnya" },
         ],
       },
     }),

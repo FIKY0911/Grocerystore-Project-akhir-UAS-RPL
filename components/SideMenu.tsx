@@ -1,11 +1,11 @@
 import { X } from 'lucide-react'
 
 import React, { FC } from 'react'
-import Logo from './Logo';
-import { headerData } from '@/constants/data';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import SocialMedia from './SocialMedia';
+import Logo from "./header/Logo";
+import { headerData } from "@/constants/data";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import SocialMedia from "./socialMedia/SocialMedia";
 import { useOutsideClick } from '@/app/hooks';
 interface SidebarProps {
     isOpen: boolean;

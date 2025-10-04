@@ -2,7 +2,7 @@
 
 import { Github, Instagram, Linkedin } from 'lucide-react'
 import React from 'react'
-import { Tooltip, TooltipTrigger, TooltipProvider } from './ui/tooltip'
+import { Tooltip, TooltipTrigger, TooltipProvider } from '../ui/tooltip'
 import { cn } from '@/lib/utils' // pastikan path sesuai
 import { TooltipContent } from '@radix-ui/react-tooltip'
 

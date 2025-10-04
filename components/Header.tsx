@@ -1,12 +1,12 @@
 import React from 'react'
-import Container from './Container';
-import Logo from './Logo';
-import HeaderMenu from './HeaderMenu';
-import SearchBar from './SearchBar';
-import CartIcon from './CartIcon';
-import FavoriteButton from './FavoriteButton';
-import SignIn from './SignIn';
-import MobileMenu from './MobileMenu';
+import Container from "./footer/Container";
+import Logo from "./header/Logo";
+import HeaderMenu from "./header/HeaderMenu";
+import SearchBar from "./header/SearchBar";
+import CartIcon from "./header/CartIcon";
+import FavoriteButton from "./header/FavoriteButton";
+import SignIn from "./header/SignIn";
+import MobileMenu from "./header/MobileMenu";
 import { currentUser } from '@clerk/nextjs/server';
 import { ClerkLoaded, UserButton, SignedIn } from '@clerk/nextjs';
 
