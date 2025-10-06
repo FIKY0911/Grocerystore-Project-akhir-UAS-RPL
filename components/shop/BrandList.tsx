@@ -2,7 +2,9 @@ import { BRANDS_QUERYResult } from "@/sanity.types";
 import React from "react";
 import { RadioGroup, RadioGroupItem } from "../ui/radio-group";
 import { Label } from "../ui/label";
-import { Title } from "../text";
+import Title from "../category/product/items/Title";
+import BrandList from "./BrandList";
+
 
 interface Props {
   brands: BRANDS_QUERYResult;

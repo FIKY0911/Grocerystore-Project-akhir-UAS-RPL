@@ -9,12 +9,11 @@ const NotFoundPage = () => {
         <div className="text-center">
           <Logo />
 
-          <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
-            Looking for something?
+          <h2 className="mt-6 text-2xl font-extrabold text-gray-900">
+            Maaf yang anda cari tidak ada?
           </h2>
           <p className="mt-2 text-sm text-gray-600">
-            We&apos;re sorry. The Web address you entered is not a functioning
-            page on our site.
+            Maaf. Halaman yang anda cari tidak ada di halaman kami.
           </p>
         </div>
         <div className="mt-8 space-y-6">
@@ -23,31 +22,31 @@ const NotFoundPage = () => {
               href="/"
               className="w-full flex items-center justify-center px-4 py-2 border border-transparent text-sm font-semibold rounded-md text-white bg-shop_dark_green/80 hover:bg-shop_dark_green focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amazonOrangeDark hoverEffect"
             >
-              Go to Shopcart&apos;s home page
+              Kunjungi halaman utama
             </Link>
             <Link
               href="/help"
               className="w-full flex items-center justify-center px-4 py-2 border border-gray-300 text-sm font-semibold rounded-md text-amazonBlue bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amazonBlue"
             >
-              Help
+              Bantuan
             </Link>
           </div>
         </div>
         <div className="mt-8 text-center">
           <p className="text-sm text-gray-600">
-            Need help? Visit the{" "}
+            Butuh bantuan? Kunjungi{" "}
             <Link
               href="/help"
               className="font-medium text-amazon-blue hover:text-amazon-blue-dark"
             >
-              Help section
+              bagian Bantuan
             </Link>{" "}
             or{" "}
             <Link
               href="/contact"
               className="font-medium text-amazon-blue hover:text-amazon-blue-dark"
             >
-              contact us
+              hubungi kami
             </Link>
           </p>
         </div>

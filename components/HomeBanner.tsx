@@ -9,11 +9,11 @@ const HomeBanner = () => {
   return (
     <div className='py-16 md:py-0 bg-shop_lightOrange rounded-lg px-10 lg:px-20 flex items-center justify-between'>
       <div className="space-y-5">
-        <Title>Grab Upto 65% off on<br/>
-        Selected pumpkin
+        <Title>Dapatkan diskon hingga 65% pada<br/>
+        Bahan Makanan Pilihan
         </Title>
         <Link href={'/shop'} className='mt-6 inline-block  text-shop_darkColor px-6 py-3 rounded-md font-semibold bg-shop_btn_dark_green hover:bg-shop_dark_green hover:text-shop_light_white hoverEffect transition'>
-          Buy Now
+          Beli Sekarang
         </Link>
       </div>
       <div>

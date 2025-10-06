@@ -24,7 +24,7 @@ const NoProductAvailable = ({
         transition={{ duration: 0.5 }}
       >
         <h2 className="text-2xl font-bold text-gray-800">
-          No Product Available
+          Tidak ada produk yang tersedia.
         </h2>
       </motion.div>
 
@@ -34,11 +34,11 @@ const NoProductAvailable = ({
         transition={{ delay: 0.2, duration: 0.5 }}
         className="text-gray-600"
       >
-        We&apos;re sorry, but there are no products matching on{" "}
+        Maaf, untuk produk dari kategori{" "}
         <span className="text-base font-semibold text-darkColor">
           {selectedTab}
         </span>{" "}
-        criteria at the moment.
+        belum tersedia saat ini.
       </motion.p>
 
       <motion.div
@@ -47,7 +47,7 @@ const NoProductAvailable = ({
         className="flex items-center space-x-2 text-shop_dark_green"
       >
         <Loader2 className="w-5 h-5 animate-spin" />
-        <span>We&apos;re restocking shortly</span>
+        <span>Kami akan segera mengisi kembali persediaan</span>
       </motion.div>
 
       <motion.p
@@ -56,7 +56,7 @@ const NoProductAvailable = ({
         transition={{ delay: 0.4, duration: 0.5 }}
         className="text-sm text-gray-500"
       >
-        Please check back later or explore our other product categories.
+        Silakan periksa kembali nanti atau jelajahi kategori produk kami yang lain.
       </motion.p>
     </div>
   );

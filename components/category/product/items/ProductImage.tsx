@@ -8,7 +8,7 @@ import { Product } from "@/sanity.types";
 
 const ProductImage = ({ product }: { product: Product }) => {
   return (
-    <div className="relative group overflow-hidden bg-shop_light_bg">
+    <div className="relative group overflow-hidden bg-shop_lighter_bg">
       {product?.images && (
         <Link href={`/product/${product?.slug?.current}`}>
           <Image

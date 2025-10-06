@@ -1,13 +1,14 @@
 import React from 'react'
 import Container from "./footer/Container";
 import FooterTop from "./footer/FooterTop";
-import Logo from "./header/Logo";
 import SocialMedia from "./socialMedia/SocialMedia";
 import { SubText, SubTitle } from './text'
 import { categoriesData, quickLinksData } from '@/constants/data';
 import Link from 'next/link';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
+import Logo from './header/Logo';
+
 
 const Footer = () => {
     return (
@@ -18,13 +19,13 @@ const Footer = () => {
                     <div className="space-y-4">
                         <Logo />
                         <SubText>
-                            Find the groceries you need at Grocerystoreyt, with a wide range of quality and healthy ingredients.
+                            Temukan bahan makanan yang Anda butuhkan di Grocerystoreyt, dengan berbagai macam bahan makanan berkualitas dan sehat.
                         </SubText>
                         <SocialMedia className="flex gap-4 text-shop_darkColor/60" iconClassName="border-darkColor/60 hover:border-shop_light_green hover:text-shop_dark_green"
                         tooltipClassName="bg-shop_darkColor text-white/80" />
                     </div>
                     <div>
-                        <SubTitle>Quick Links</SubTitle>
+                        <SubTitle>Tautan Cepat</SubTitle>
                         <ul className=' space-y-3 mt-4'>
                             {quickLinksData?.map((item, index) => (
                                 <li key={item?.title} className='mt-3'>
@@ -34,7 +35,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <SubTitle>Categories</SubTitle>
+                        <SubTitle>Categori Sayuran</SubTitle>
                         <ul className=' space-y-3 mt-4'>
                             {categoriesData?.map((item, index) => (
                                 <li key={item?.title} className='mt-3'>
@@ -44,18 +45,19 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='space-y-4'>
-                        <SubTitle>News letter</SubTitle>
-                        <SubText className='mt-4'>Subscribe to our newsletter to get the latest updates and offers.</SubText>
+                        <SubTitle>Berita terkini</SubTitle>
+                        <SubText className='mt-4'>Subcribe ke berita terbaru kami untuk mendapatkan informasi dan penawaran terkini.</SubText>
                         <form className='space-y-3'>
-                            <Input placeholder='Enter your email' type='email' required/>
+                            <Input placeholder='Masukkan email Anda' type='email' required/>
                             <Button className='w-full'>Subscribe</Button>
                         </form>
                     </div>
                 </div>
-                <div className="py-6 border-t text-center text-sm text-gray-600">
-                    <div>
-                        © {new Date().getFullYear()} <Logo className="text-sm mx-3" />. All
-                        rights reserved.
+                <div className="py-3 border-t text-center text-sm text-gray-600">
+                    <div className="flex items-center justify-center gap-2">
+                        <span>© {new Date().getFullYear()}</span>
+                        <Logo className="w-4 h-4 object-contain" />
+                        <span>All rights reserved.</span>
                     </div>
                 </div>
             </Container>

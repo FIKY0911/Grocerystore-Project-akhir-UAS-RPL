@@ -44,7 +44,7 @@ const ProductSideMenu = ({
       className={cn(
         `absolute top-2 right-2 p-2.5 rounded-full transition
         hover:bg-shop_dark_green/80 hover:text-white
-        ${existingProduct ? "bg-shop_dark_green/80 text-white" : "bg-lightColor/10"}`,
+        ${existingProduct ? "bg-shop_dark_green/80 text-white" : "bg-shop_lightColor/10"}`,
         className
       )}
     >

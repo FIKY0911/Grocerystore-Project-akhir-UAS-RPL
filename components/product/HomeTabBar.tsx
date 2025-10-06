@@ -27,7 +27,7 @@ const HomeTabBar = ({ selectedTab, onTabSelect }: Props) => {
         href={"/shop"}
         className="border border-darkColor px-4 py-1 rounded-full hover:bg-shop_light_green hover:text-white hover:border-shop_light_green hoverEffect"
       >
-        See all
+        Lihat semua
       </Link>
     </div>
     )

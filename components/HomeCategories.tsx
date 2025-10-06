@@ -13,7 +13,7 @@ const HomeCategories = ({ categories }: { categories: Category[] }) => {
         {categories?.map((category) => (
           <div
             key={category?._id}
-            className="bg-shop_light_bg p-5 flex items-center gap-3 group"
+            className="bg-shop_lighter_bg p-5 flex items-center gap-3 group rounded-lg"
           >
             {category?.image && (
               <div className="overflow-hidden border border-shop_orange/30 hover:border-shop_orange hoverEffect w-20 h-20 p-1">

@@ -9,28 +9,28 @@ interface ContactItemData {
 
 const data: ContactItemData[] = [
   {
-    title: "Visit Us",
+    title: "Kunjungi Kami",
     subtitle: "Jakarta, Indonesia",
     icon: (
       <MapPin className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
     ),
   },
   {
-    title: "Call Us",
+    title: "Hubungi Kami",
     subtitle: "+62 8574 0944 838",
     icon: (
       <Phone className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
     ),
   },
   {
-    title: "Working Hours",
-    subtitle: "Mon - Sat: 10:00 AM - 7:00 PM",
+    title: "Jam Kerja",
+    subtitle: "Sen - Sab: 10:00 AM - 7:00 PM",
     icon: (
       <Clock className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
     ),
   },
   {
-    title: "Email Us",
+    title: "Email Kami",
     subtitle: "Grocerystore@gmail.com",
     icon: (
       <Mail className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />

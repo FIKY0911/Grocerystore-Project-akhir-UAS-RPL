@@ -9,7 +9,7 @@ import ProductRating from "./items/ProductRating";
 
 const ProductCard = ({ product }: { product: Product }) => {
   return (
-    <div className="text-sm border rounded-md border-shop_darkBlue/20 group bg-white">
+    <div className="text-sm border rounded-md border-shop_dark_green/20 group bg-white">
       {/* Jadikan container gambar relative */}
       <div className="relative">
         <ProductImage product={product} />
